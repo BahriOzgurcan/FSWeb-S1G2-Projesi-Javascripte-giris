@@ -231,32 +231,32 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yap:
 4. Bu döngüde, her seferinde cocukSarkisi fonsiyonu çalışsın ve console.log'a dönen metni yazdırsın.
 */
 
-//deneme2
+//deneme
 
-let maymunsayisi = 6;
+let maymunsayisi = 8;
 
 function cocukSarkisi(sayı) {
-  return sayı + " küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kmış: Bir daha yatakta zıplamak yok!";
+  return  sayı + " küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!";
   
 }
 
 console.log(cocukSarkisi(4));
 
 let sayı=maymunsayisi;
-while (sayı <= maymunsayisi && sayı>0) {
+while (sayı <= maymunsayisi && sayı>2) {
   console.log(cocukSarkisi(sayı));
-  sayı -=1;
+  sayı -=2;
 }
 
 //deneme2
 
-function cocukSarkisi2(sayı) {
-  return sayı + " küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kmış: Bir daha yatakta zıplamak yok!";
+function cocukSarkisi2(sayı) { let f = sayı;
+  return   sayı + "küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!";
 }
+console.log(cocukSarkisi2(1));
 
-console.log(cocukSarkisi2(1))
 
-for (let i = 6; i > 0; i--) {
+for (let i = 5; i > 0; i--) {
   console.log(cocukSarkisi2(i));
 }
 
