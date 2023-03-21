@@ -250,7 +250,7 @@ while (sayı <= maymunsayisi && sayı>2) {
 
 //deneme2
 
-function cocukSarkisi2(sayı) { let f = sayı;
+function cocukSarkisi2(sayı) {
   return   sayı + "küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!";
 }
 console.log(cocukSarkisi2(1));
